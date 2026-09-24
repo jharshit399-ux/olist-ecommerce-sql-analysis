@@ -12,17 +12,17 @@ I'm HackerRank SQL (Intermediate) certified, and I wanted to prove that skill on
 - **Tables used:** `orders`, `order_items`, `products`, `customers`, `cat_translation`
 - **Environment:** SQLite, run in a Kaggle notebook
 - Revenue = sum of item `price` (freight excluded); values in Brazilian Reais (R$).
-
+  
 ## Questions & findings
 
 **1. How has monthly revenue trended over time?**  
-Revenue grew almost **8× in 18 months** — from ~R$120k (Jan 2017) to ~R$920k/month across 2018. Growth was steady through 2017, then **November 2017 was the single biggest month (~R$1M, ~1.5× the prior month)**, matching Black Friday and Brazil's year-end "13th salary" season — a predictable peak a business could plan capacity around.
+Revenue grew almost 8x in 18 months, from about BRL 120k (Jan 2017) to about BRL 920k per month across 2018. Growth was steady through 2017, then November 2017 was the single biggest month (about BRL 1M, roughly 1.5x the prior month), matching Black Friday and Brazil's "13th salary" season — a predictable peak a business could plan capacity around.
 
 **2. Which product categories drive the most revenue?**  
-Revenue is highly concentrated: of **71 categories**, the **top 5** (health & beauty, watches & gifts, bed/bath/table, sports & leisure, computers & accessories) each earn ~R$0.9–1.3M, while a long tail of ~66 categories contributes very little (smallest under R$1,000). A handful of categories carry the business.
+Revenue is highly concentrated: of 71 categories, the top 5 (health & beauty, watches & gifts, bed/bath/table, sports & leisure, computers & accessories) each earn about BRL 0.9 to 1.3M, while a long tail of about 66 categories contributes very little (smallest under BRL 1,000). A handful of categories carry the business.
 
 **3. How reliable is delivery against the promised date?**  
-Orders take **~12.6 days on average** to arrive, and only **~8% arrive after the estimated date** — so **~92% are on time or early**. Strong reliability, though it may partly reflect conservative delivery estimates rather than pure speed.
+Orders take about 12.6 days on average to arrive, and only about 8% arrive after the estimated date, so about 92% are on time or early. Strong reliability, though it may partly reflect conservative delivery estimates rather than pure speed.
 
 ## SQL techniques used
 
