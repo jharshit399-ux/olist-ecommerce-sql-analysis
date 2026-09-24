@@ -30,7 +30,7 @@ Multi-table JOINs (2- and 3-table) · aggregation with GROUP BY (SUM, COUNT, AVG
 
 ## Files
 
-- `olist_analysis.ipynb` — full notebook with every query, result, and notes
+- [olist-analysis.ipynb](olist-analysis.ipynb) — full notebook with every query, result, and notes
 
 ---
 *A self-directed SQL learning project by Harshit Joshi.*
